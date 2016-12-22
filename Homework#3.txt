@@ -1,0 +1,17 @@
+1. 
+a. pull the most recent file and open it in editor.
+b. delete all the lines withs >, <,= symbols 
+c. remove HEAD's
+d. save the file.
+e. Now push the file back. 
+
+2. HTML is Hyper Text Markup Language. Type the HTML code in a text editor and save it as .html file.
+
+3. DocType: This is not a HTML tag. it is the instrution to the webbrowser about what version of HTML the page is written in.
+
+4. 
+Tag: These are element names surrounded by angle brackets. These normally come in pairs. 
+
+Element: This usually consits a start tag and a end tag, with the content inserted in between. 
+
+5. Attribute: Attributes provide additional information about HTML Elements.

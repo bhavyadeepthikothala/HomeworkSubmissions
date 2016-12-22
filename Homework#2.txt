@@ -1,0 +1,35 @@
+1. Clone repository Steps:
+a. opened the directory tobe cloned.
+b. select clone or download and copy the Https link.
+c. Open Git BAsh and go to the directory where you want to keep yourr repo.
+d. use command
+    git clone https://github.com/karthikkrishna611/UIClassDecember-18-2016.git
+e. clone created
+
+2. Create a new repo
+a. open gitHub and click the + in the top right corner and select new repository.
+b. Give a name & description to the repository.
+c. choose the option intialize with readme & click create repository. This creates our repository.
+
+3.GitHub Commands:
+Clone - Clone an existing repository into a local file system
+init - craete a new local repository
+add - Add all current changes to the next commit
+mv - move or rename a file , a directory.
+reset - Discard all local Changes in our working directory
+rm -  using our editor to manually solve conflicts and mark files as resolved.
+bisect - use binary search to find the commit that introduced a bug. This can be used to find the commit that changed any property of your project.
+grep - Print lines matching a pattern.
+log - Show all commits starting from the newest.
+show - Show various types of objects.
+status - Changed files in your working directory.
+branch - we can either create a new branch or delete a branch or list all existing branches.
+checkout - Discard all changes in a specific file. 
+commit - Commit previously staged changes or all local changes . 
+diff - Changes to tracked files.
+merge - Merge the given branch into our current Head
+rebase - We can either rebase out current head onto a given branch or abort a rebase or continue rebase after resolving conflicts
+tag - create, list, delete or verify a tag object signed with GPG.
+fetch - Downloading all changes from <remote> but don't integrate into HEAD.
+pull - Downloading Changes and directly merge/integrate into HEAD. 
+push - publish local changes on a remote.
