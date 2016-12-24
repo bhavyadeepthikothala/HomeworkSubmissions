@@ -15,3 +15,13 @@ Tag: These are element names surrounded by angle brackets. These normally come i
 Element: This usually consits a start tag and a end tag, with the content inserted in between. 
 
 5. Attribute: Attributes provide additional information about HTML Elements.
+
+6. 
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1> This is my first HTML Document </h1>
+<p>   Lets begin learning HTML from Today.</p>
+</body>
+</html>
