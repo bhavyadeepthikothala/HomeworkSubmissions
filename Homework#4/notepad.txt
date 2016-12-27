@@ -1,0 +1,59 @@
+1. How to craete list in html? orderlist and unorderlist
+A) Lists are created in html using <li>  and </li> tags. If it is an  ordered list the li tags will be written in between the <ol> and </ol> tags. if it is an unordered list the li tags will be enclosed by <ul> tags. For ordered lists we can specify the type of list like the list can be numbered as 1,2,3... or A,B,C,..... or a,b,c,.... or i,ii,iii,..... or I,II,III,.... . the unidered list can either have bullets or sqaures or circles. bullets are the default type.
+Eg: for Ordered list
+<ol type =  "1">
+<li> How to resolve merge conflicts? </li>
+<li> What is HTML? how to craete a html Document? </li>
+<li> What is docType? </li>
+<li> What is an tag and element in html? </li>
+<li> what is an attribute in HTML? </li>
+<li> Create a simple html page? write code.</li>
+</ol> 
+Eg: for unordered list
+<ul>
+<li> Sunday -- Thursday (8:15 PM EST - 9:30 PM EST) 
+</ul>
+
+2. How to include images in html?
+A) Imgaes can be included in html using the <img> tag. The main attributes of this tag are the src attribute which specifies the location of the image which can be either a url or a file path on our local system. alt attribute specifies the alternate value or the description of the image to be displayed in case if the image is not displayed. Style attribute specifies the height and width of the image being inserted in pixels. <img> tag doesnt have a closing tag.
+Eg: <img src="userint.jpg" alt="User Interface" style="width: 500px;height: 300px;">
+
+3. How to take user input?
+A) User input can be taken in html using <input> tag, which also doesnt have a closing tag. It has type attribute which can be either a text box or a submit which is button. name attribute that gives a name to the type. 
+Eg: 
+<input type="text" name="lastname" value=" ">  // This is a text box
+<input type="submit" value="Submit"> // this a button with name Submit 
+
+4. How to have links to different webpages and link to a different part of the same webpage?
+A) Links can be provided in html using the anchor tag defined by <a>. The anchor tag has attributes href and target. href specifies the address or the url for different webpage or a path to the file on your local sytem, if we want to refer a different webpage. But if you want to have a link for the part of the webpage you are creating use the id for the part in href attribute with a pound symbol. target attribute specifies where to open the link you clicked on. By default it is the same page but _blank opens the link in new browser window. 
+Eg:
+// link to another webpage and the link is shown as the name given between the openng and closing tags of <a>
+<a href="https://github.com/bhavyadeepthikothala/HomeworkSubmissions.git" target="_blank"> <P> Answers to above Questions </P> </a> 
+// link to some part in same webpage. here to the source tree part of this webpage
+<a href="#sourceTree"> Sourcetree </a>
+
+5. What is head,body, & html element and why do we need them in the page?
+A) head: The <head> element can include a title for the document, scripts, styles
+   body: The <body> tag defines the document. The <body> element contains all the contents of an HTML document, such as text, hyperlinks, images, tables, lists, etc.
+   html Element: An HTML element is an individual component of an HTML document or web page.Each element can have HTML attributes specified. Elements can also have content, including other elements and text. Many HTML elements represent semantics, or meaning. For example, the title element represents the title of the document.
+
+6. What are the Semantic Elements? Describe about each one of them.
+A) Many HTML tags have semantic meaning. That is, the element itself conveys some information about the type of content contained between the opening and closing tags. For example, when a browser encounters an h1 heading it interprets that tag to mean that the contents of the h1 element constitute the most important heading of the section that contains the element. The semantic meaning of an h1 tag is that it is used to identify the most important header of a specific web page or section.
+Eg: <h1> to <h6>, <form>, <li>
+
+Here is the list of the semantic elements that are added  as a part of html5
+
+Tag							Description
+<article>				Defines an article
+<aside>					Defines content aside from the page content
+<details>				Defines additional details that the user can view or hide
+<figcaption>			Defines a caption for a <figure> element
+<figure>				Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+<footer>				Defines a footer for a document or section
+<header>				Specifies a header for a document or section
+<main>					Specifies the main content of a document
+<mark>					Defines marked/highlighted text
+<nav>					Defines navigation links
+<section>				Defines a section in a document
+<summary>				Defines a visible heading for a <details> element
+<time>					Defines a date/time   
