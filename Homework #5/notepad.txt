@@ -25,8 +25,20 @@ Eg:<input type="number">
 password: A text field in which the entered value is hidden. we can use the maxlength attribute to specify the maximum length of the value that is entered.
 Eg: <input type="Password" name="password" value="" size="8" required="on" maxlength="8">
 Radio: This lets user select only one of a limited number of choices.
-Eg: 
-Range:
+Eg: Eg: <input type="radio" name="gender" value="Male"> Male
+<input type="radio" name="gender" value="Female"> Female 
+<input type="radio" name="gender" value="Other">  Other 
+Range: control to enter a number whose exact value is not important.
+reset: a button to reset the contents of the form to default values.
+search: New to HTML5. text field whose value is used to search.
+submit: A button that submits the form.
+Eg: <input type="submit" name="submit" value="SIGNUP">
+tel: New to HTML5. Allows user to input a telephone number.
+Eg: <input type="tel" name="PhoneNumber" value=" " size="10"> 
+text: A single line txt field.
+time: New to HTML5. Allows user to input time.
+url: New to HTML5. Allows user to specify the URL
+week: New to HTML5. Allows user to input a date containing week year number.
 
 2) Explain all the input attributes.
 A)Different attributes to input tag are:
