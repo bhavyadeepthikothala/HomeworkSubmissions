@@ -1,0 +1,53 @@
+1) Different types of CSS
+A) There are three different types of style sheets. They are:
+	a. inline Styles: These are written directly in the tag itself. These affect the tags they are applied to. This uses the html style attribute. This is not recommended and it can be used for an individual change that we do not use repeatedly. This can be inserted anywhere in the middle of html code.
+	Eg: <img src="header.jpg" alt="topheader" style="width: 1000px;height: 200px">
+		<div style="text-align: center; background-color: yellow; height:30px;">
+
+	b. Internal Stylesheets: This hold the code for the webpage in the head section of a particular file. These are also called embedded Stylesheets. Affects only the tags on the page it is written. These are written at the top of th webpage documnet before any of the content is listed. This is easy to find and allows you to override any of the external styles.
+	Eg: <html>
+		<head>
+			<title> Harper's BAZAAR </title>
+			<style type="text/css">
+			.last 
+			{
+				display: inline-block;
+				float: right;	
+			}
+			footer
+			{
+				background-color: black;
+				text-align: center
+			}
+			</style>
+		</head> 
+		</html>
+	c. External stylesheets: These are the sepaerate files full of CSS instruction saved with extension .css. when any webpage includes a css file its look is controlled by that css file unless you override it with the above two types. This is used to change whole webpage at once. 
+
+2) What is cascading in CSS?
+A) "Cascading" in CSS means that because more than one stylesheet rule could apply to a particular piece of HTML, there has	 	to be a known way of determining which specific stylesheet rule applies to which piece of HTML. Styles can fall (or 		cascade) from one style sheet to another, enabling multiple style sheets to be used on one HTML document.
+
+	Even the simplest HTML document may have three or more style sheets associated with it including:
+
+	a.The browser's style sheet
+  	b. The user's style sheet
+	c.The author's style sheet
+
+3) Why do we need to use CSS?
+A) Use CSS to define styles for your documents, including the design, layout and variations in display for different devices and screen sizes. CSS, or cascading style sheets, allows you to specify styles for the visual elements of your website. This saves the time, gives you design flexibility.
+
+4) Which type of CSS is better in practice?
+A) An external style sheet has many advantages. Keeping the styles separate from your HTML content:
+
+	a. Helps avoid duplication
+	b. Makes maintenance easier
+	c. Allows you to make a site-wide change in one place
+
+An inline style loses many of the advantages of style sheets by mixing content with presentation. Use this method sparingly! To use inline styles you use the style attribute in the relevant tag. 
+
+An internal style sheet should be used when a single document has a unique style.
+
+An external style sheet is ideal when the style is applied to many pages. With an external style sheet, you can change the look of an entire Web site by changing one file.
+
+5) What are selectors and why do we need them in CSS?
+A) In CSS, selectors are patterns used to select the element/elements we want to style.Selectors define to which elements a set of CSS rules apply.
