@@ -42,7 +42,7 @@ week: New to HTML5. Allows user to input a date containing week year number.
 
 2) Explain all the input attributes.
 A)Different attributes to input tag are:
-type: this specicies the type of input control.
+type: this specicies the type of input control.There could be lot of types. Such as button, text, submit, radio, checkbox, email, password, date, time etc.
 accept: For the input type 'file'. Specifies acceptable file types.
 AutoCapitalize: can have values none, sentences, words, characters, which represents no capitalization, capitalize the sentence beginnings, capitalize the words first letter  respectively.
 autocomplete: This attribute is added in HTML5. This specifies the browser whether the value can be completed automatically in any of the input fields. can have two values on/off. on means the browser auto fills the fields.if off, the user must explicitly enter a value to the input fields.
