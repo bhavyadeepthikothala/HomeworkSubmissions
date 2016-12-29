@@ -1,0 +1,161 @@
+1. Explain all the input types with Examples.
+A) Input element is used to create interactive controls for the web forms in order to accept data from users. The default type is text. There are different types of inputs:
+Button:  A push button with no default behaviour.
+format: <input type="button" > 
+Checkbox: Defines a checkbox which a user can toggle on/off. checkboxes let a user select zero or more options of  limited number of choices.
+Eg: <input type="checkbox" name="terms" required="on"> Do you agree to the terms and conditions for this subscription?
+color:  New to HTML5. It allows the user to select a color and returns the HEX value for that color. 
+Eg: <input type="color">
+Date: New to html5. A control for entering a date.
+Eg: <input type="date"> 
+datetime: new to HTML5. Control for entering both date and time.
+Eg: <input type="datetime">
+datetime-local: new to html5. control for entering date and time without specifying the time zone.
+Eg: <input type="datetime-local">
+Email: New for HTML5. used to enter/edit email addresses.
+Eg: <input type="email">
+file: This control lets user to select a file.
+Eg: <input type="file">
+image: This is a graphical submit button. one must use the src attribute to specify the source of the image and the alt attribute to define a alternative text. We can use height and width attributes to resize the image.
+Eg: <input type="image" src="theList.jpg" alt="theList" align="center">
+month: New to HTML5. control for entering a month and year, without the time zone
+Eg:<input type="month">
+number: new to HTML5. This is the control that allows you to enter floating point number
+Eg:<input type="number">
+password: A text field in which the entered value is hidden. we can use the maxlength attribute to specify the maximum length of the value that is entered.
+Eg: <input type="Password" name="password" value="" size="8" required="on" maxlength="8">
+Radio: This lets user select only one of a limited number of choices.
+Eg: 
+Range:
+
+2) Explain all the input attributes.
+A)  
+
+3) What are Semantic Elements?
+A) Many HTML tags have semantic meaning. That is, the element itself conveys some information about the type of content contained between the opening and closing tags. For example, when a browser encounters an h1 heading it interprets that tag to mean that the contents of the h1 element constitute the most important heading of the section that contains the element. The semantic meaning of an h1 tag is that it is used to identify the most important header of a specific web page or section.
+Eg: <h1> to <h6>, <form>, <li>,<img>,<table>,<strong>,<time>,<mark>,<section>,<article>,<header>,<footer>,<summary>
+
+4) Explain the difference between article, section, div
+A) The section element is not a generic container element. When an element is needed for styling purposes or as a convenience for scripting, it is encouraged to use the div element instead. A general rule is that the section element is appropriate only if the element's contents would be listed explicitly in the document's outline.
+
+The section element represents a generic section of a document or application. A section, in this context, is a thematic grouping of content, typically with a heading.
+
+Examples of sections would be chapters, the various tabbed pages in a tabbed dialog box, or the numbered sections of a thesis. A Web site's home page could be split into sections for an introduction, news items, and contact information. 
+
+<div>, on the other hand, does not convey any meaning, aside from any found in its class, lang and title attributes.
+
+The HTML element (or HTML Document Division Element) is the generic container for flow content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the class or id attributes), or because they share attribute values, such as lang.
+
+The article tag specifies independent, self-contained content.
+
+The article element represents a component of a page that consists of a self-contained composition in a document, page, application, or site and that is intended to be independently distributable or reusable, e.g. in syndication. This could be a forum post, a magazine or newspaper article, a blog entry, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.
+
+5) Explain with examples .
+A) Tag							Description
+<article>				Defines an article
+<aside>					Defines content aside from the page content
+<details>				Defines additional details that the user can view or hide
+<figcaption>			Defines a caption for a <figure> element
+<figure>				Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+<footer>				Defines a footer for a document or section
+<header>				Specifies a header for a document or section
+<main>					Specifies the main content of a document
+<mark>					Defines marked/highlighted text
+<nav>					Defines navigation links
+<section>				Defines a section in a document
+<summary>				Defines a visible heading for a <details> element
+<time>					Defines a date/time     
+
+Eg: Code Snippet
+
+<body>
+ 
+  <header>
+    <h1>Welcome On Our Website!</h1>
+    <p>Here is our logo and slogan.</p>
+  </header>
+   
+  <nav>
+    <header>
+      <h2>Choose Your Interest</h2>
+    </header>
+    <ul>
+      <li>Menu 1</li>
+      <li>Menu 2</li>
+      <li>Menu 3</li>
+    </ul>
+  </nav>
+   
+  <article>
+    <header>
+      <h1>Title of Article</h1>
+      <h2>Subtitle of Article</h2>
+    </header>
+     
+    <section>
+      <h3>First Logical Part (e.g. "Theory")</h3>
+      <p>Paragraph 1 in first section</p>
+       
+      <h4>Some Other Subheading in First Section</h4>
+      <p>Paragraph 2 in first section</p>
+    </section>
+     
+    <section>
+      <h3>Second Logical Part (e.g. "Practice")</h3>
+      <p>Paragraph 1 in second section</p>
+      <p>Paragraph 2 in second section</p>
+    </section>
+   
+    <footer>
+      <h4>Author Bio</h4>
+      <p>Paragraph in Article's Footer</p>
+    </footer>
+   
+  </article>
+   
+  <aside>
+     
+    <h2>Get To Know Us Better</h2>
+     
+    <section>
+      <h3>Popular Posts</h3>
+      <ul>...</ul>
+    </section>
+     
+    <section>
+      <h3>Partners</h3>
+      <ul>...</ul>
+    </section>
+     
+    <section>
+      <h3>Testimonials</h3>
+      <ul>...</ul>
+    </section>
+   
+  </aside>
+   
+  <footer>
+    <ul>
+      <li>Copyright</li>
+      <li>Social Media Links</li>
+    </ul>
+  </footer>
+ 
+</body>
+
+6) What are forms? What is form Validation in html?
+A) Form elements and attributes in HTML5 provide a greater degree of semantic mark-up than HTML4 and remove a great deal of the need for tedious scripting and styling that was required in HTML4. The forms features in HTML5 provide a better experience for users by making forms more consistent across different web sites and giving immediate feedback to the user about data entry. They also provide this experience to users who have scripting disabled in their browser.
+
+To validate this form we'll need to:
+
+a. Make sure the required fields have been completed&)
+b. Make sure what's entered for 'Name' is name-like
+c. Make sure the email address looks like an email address
+d. Check that if a website URL has been provided, it looks like a URL
+e. Make sure a number has been entered in 'Number Field'
+
+7) Explain in more detail the difference between HTML4 and HTML5.
+A) HTML:
+	DOCTYPE is much longer. Audio ad video are not supported.Not possible to draw shapes loke rectangle, circle, triangle. Doesnot allow javaScript to run on the webbrowser. Works with all oold webbrowsers.Browser cache is used as temporary storage.
+   HTML5:
+   	DOCTYPE is required. Audio and video are integral parts of the HTML5.Allows javaScript to run in the background.Most of the modern web browsers support HTML5 Specification. New elemnts are introduced to improve document structure.Introduced new semantic elements which seperates sections of content on the page and provide additional meaning to the browser.<canvas> element allows you to draw shapes.   
