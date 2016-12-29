@@ -29,7 +29,6 @@ Eg:
 Range:
 
 2) Explain all the input attributes.
-<<<<<<< HEAD
 A)Different attributes to input tag are:
 type: this specicies the type of input control.There could be lot of types. Such as button, text, submit, radio, checkbox, email, password, date, time etc.
 accept: For the input type 'file'. Specifies acceptable file types.
@@ -46,9 +45,7 @@ readonly: sets the input content to reaonly. that means the user cannot change t
 required:This is new to HTML5. This allows us to specify that the input fields are required and wont allow user to submit the form until all the required fields are filled out.
 size: specifies the width of the text field or the password field.
 src: This defines the URL of the image to be dispalyed. This attribute is used for type image.
-=======
-A)  
->>>>>>> parent of 7ce8ffa... few changes to the notepad file
+
 
 3) What are Semantic Elements?
 A) Many HTML tags have semantic meaning. That is, the element itself conveys some information about the type of content contained between the opening and closing tags. For example, when a browser encounters an h1 heading it interprets that tag to mean that the contents of the h1 element constitute the most important heading of the section that contains the element. The semantic meaning of an h1 tag is that it is used to identify the most important header of a specific web page or section.
