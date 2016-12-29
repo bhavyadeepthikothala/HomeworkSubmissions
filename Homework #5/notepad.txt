@@ -25,11 +25,38 @@ Eg:<input type="number">
 password: A text field in which the entered value is hidden. we can use the maxlength attribute to specify the maximum length of the value that is entered.
 Eg: <input type="Password" name="password" value="" size="8" required="on" maxlength="8">
 Radio: This lets user select only one of a limited number of choices.
-Eg: 
-Range:
+Eg: <input type="radio" name="gender" value="Male"> Male
+<input type="radio" name="gender" value="Female"> Female 
+<input type="radio" name="gender" value="Other">  Other 
+Range: control to enter a number whose exact value is not important.
+reset: a button to reset the contents of the form to default values.
+search: New to HTML5. text field whose value is used to search.
+submit: A button that submits the form.
+Eg: <input type="submit" name="submit" value="SIGNUP">
+tel: New to HTML5. Allows user to input a telephone number.
+Eg: <input type="tel" name="PhoneNumber" value=" " size="10"> 
+text: A single line txt field.
+time: New to HTML5. Allows user to input time.
+url: New to HTML5. Allows user to specify the URL
+week: New to HTML5. Allows user to input a date containing week year number.
 
 2) Explain all the input attributes.
-A)  
+A)Different attributes to input tag are:
+type: this specicies the type of input control.
+accept: For the input type 'file'. Specifies acceptable file types.
+AutoCapitalize: can have values none, sentences, words, characters, which represents no capitalization, capitalize the sentence beginnings, capitalize the words first letter  respectively.
+autocomplete: This attribute is added in HTML5. This specifies the browser whether the value can be completed automatically in any of the input fields. can have two values on/off. on means the browser auto fills the fields.if off, the user must explicitly enter a value to the input fields.
+autofocus: This attribute is added in HTML5. This boolean attribute lets us specify which input field will have the cursor in it upon loading the page. only one input element can have the auto focus on.
+alt: This specifies the text that can be used if the browser/user cannot render the input control.
+checked: Applicable only if the type is either radio or checkbox, those will already be selected/checked when the page loads if the value of this attibute is on.   
+list: New to HTML5. Specifies the <datalist> element with predefined options for an list element.
+maxlength: This specicies the maximum  number of characters that are allowed in a text input field.
+multiple, max,min: These are new to HTML5. these allows user to specify multiple values, maximum and minimum values respectively.
+placeholder: new to HTML5. Specifies the small hint on what is the expected value there.
+readonly: sets the input content to reaonly. that means the user cannot change the value for that input field.
+required:This is new to HTML5. This allows us to specify that the input fields are required and wont allow user to submit the form until all the required fields are filled out.
+size: specifies the width of the text field or the password field.
+src: This defines the URL of the image to be dispalyed. This attribute is used for type image.
 
 3) What are Semantic Elements?
 A) Many HTML tags have semantic meaning. That is, the element itself conveys some information about the type of content contained between the opening and closing tags. For example, when a browser encounters an h1 heading it interprets that tag to mean that the contents of the h1 element constitute the most important heading of the section that contains the element. The semantic meaning of an h1 tag is that it is used to identify the most important header of a specific web page or section.
@@ -156,6 +183,6 @@ e. Make sure a number has been entered in 'Number Field'
 
 7) Explain in more detail the difference between HTML4 and HTML5.
 A) HTML:
-	DOCTYPE is much longer. Audio ad video are not supported.Not possible to draw shapes loke rectangle, circle, triangle. Doesnot allow javaScript to run on the webbrowser. Works with all oold webbrowsers.Browser cache is used as temporary storage.
+	DOCTYPE is much longer. Audio ad video are not supported.Not possible to draw shapes loke rectangle, circle, triangle. Doesnot allow javaScript to run on the webbrowser. Works with all old webbrowsers.Browser cache is used as temporary storage.
    HTML5:
    	DOCTYPE is required. Audio and video are integral parts of the HTML5.Allows javaScript to run in the background.Most of the modern web browsers support HTML5 Specification. New elemnts are introduced to improve document structure.Introduced new semantic elements which seperates sections of content on the page and provide additional meaning to the browser.<canvas> element allows you to draw shapes.   
